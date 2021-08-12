@@ -1,0 +1,27 @@
+.bizt-box {
+    display: flex;
+    gap: .75rem;
+    border: 1px solid #e3e3e3;
+    /*background-color: #f0feeb;*/
+    font-size: 1.3rem;
+    padding: .5rem;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.bizt-idx {
+    padding: 0 0.5rem;
+    font-size: 1.56rem;
+    font-weight: bold;
+    border: 1px solid #c6c6c6;
+    font-family: 'Times New Roman', serif;
+}
+.bt-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .5rem;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,20 @@
+.bookbox {
+    padding: .5rem;
+    border: 1px solid #e3e3e3;
+    font-size: 1.3rem;
+}
+.book-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0359b0;
+}
+.book-description {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.book-link {
+    color: brown;
+    text-decoration: underline;
+    font-size: 1.3rem;
+    display: inline-block;
+}
