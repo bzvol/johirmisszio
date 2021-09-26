@@ -56,9 +56,7 @@ function App() {
                     showStatus={false}
                     className={"center-carousel"}
                   >
-                    <img src={carouselImages.carouselImg1} alt={"Támogatás"}/>
-                    <img src={carouselImages.carouselImg2} alt={"Bibliaóra"}/>
-                    <img src={carouselImages.carouselImg3} alt={"WOW Camp"}/>
+                    <img src={carouselImages.carouselImg1} alt={"CLF Lelkigyakorlat 10.06-09."}/>
                   </Carousel>
 
                   <Divider/>
@@ -239,7 +237,7 @@ function RightSidebar() {
         Gyülekezeti alkalmak<br/>
         <div className={"gyuli-alk"}>
           <b>Istentisztelet</b><br/>
-          Vasárnap 10:00, 19:00<br/>
+          Vasárnap 10:30<br/>
           <b>Ifi-alkalom</b><br/>
           Vasárnap 16:00<br/>
           <b>Bibliaóra</b><br/>

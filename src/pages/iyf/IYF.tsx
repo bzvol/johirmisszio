@@ -6,7 +6,7 @@ export default function IYF() {
   return (
     <div className={"textpagetemplate pad-1"}>
       <a
-        href={"https://www.iyf.org/"}
+        href={"https://www.iyfhungary.com/"}
         target={"_blank"}
         rel={"noreferrer"}
         className={"tpt-air"}
