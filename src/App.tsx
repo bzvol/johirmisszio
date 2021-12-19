@@ -56,9 +56,9 @@ function App() {
                     showStatus={false}
                     className={"center-carousel"}
                   >
-                    <img src={carouselImages.carouselImg1} alt={"CLF Lelkigyakorlat 10.06-09."}/>
-		    <img src={carouselImages.carouselImg2} alt={"Carousel img 2"}/>
-		    <img src={carouselImages.carouselImg3} alt={"Carousel img 3"}/>
+                    <img src={carouselImages.carouselImg1} alt={"Kép 1"}/>
+		    <img src={carouselImages.carouselImg2} alt={"Kép 2"}/>
+		    <img src={carouselImages.carouselImg3} alt={"Kép 3"}/>
                   </Carousel>
 
                   <Divider/>
