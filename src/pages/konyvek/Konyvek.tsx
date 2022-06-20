@@ -40,6 +40,27 @@ export default function Konyvek() {
         "sok nehézség árán, találkozik Istennel."}
         pdfName={"Hagyd_el"}
       />
+
+      <Book
+        title={"A szív földjén állva"}
+        author={"Ock Soo Park"}
+        description={"Ha megismerjük szívünk világát, igazi boldogságot és valódi örömöt fedezhetünk fel, amit " + 
+        "személyesen is átélhetünk. De ha az ember csak a testi élvezetekre törekszik, úgy nagyon nehéz lesz igazi, " +
+        "szívből jövő boldogságot találnia."}
+        pdfName={"A_sziv_foldjen_allva"}
+      />
+
+      <Book
+        title={"Bennem van, de nem én vagyok"}
+        author={"Ock Soo Park"}
+        description={"A gonosz lélek ott trónol a bensőnkben, hogy sötétségbe és kétségégbeesésbe taszítson " +
+        "bennünket. Sokan azért vallanak kudarcot, mert a gonosz lélek irányítja őket. Célja, hogy elrabolja " +
+        "az életüket. Könyvemben azt szeretném bemutatni, hogyan működik bennünk ez a bizonyos gonosz lélek. " +
+        "Nem tudom pontosan, hány olvasóhoz jut el ez a szándék, de azt kívánom, hogy megismerjék a szív világát " +
+        "és megszabaduljanak a hamis gondolatoktól, ezáltal szép és boldog életet éljenek. Azt kívánom továbbá, " +
+        "hogy az emberek közötti kommunikáció zavartalan legyen, hogy igazán boldogan élhessünk egymás mellett."}
+        pdfName={"Bennem_van_de_nem_en_vagyok"}
+      />
     </div>
   )
 }
