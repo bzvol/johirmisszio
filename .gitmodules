@@ -1,0 +1,6 @@
+[submodule "admin"]
+	path = admin
+	url = https://github.com/bzvol/johirmisszio-admin
+[submodule "api"]
+	path = api
+	url = https://github.com/bzvol/johirmisszio-api
