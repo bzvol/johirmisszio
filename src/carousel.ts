@@ -6,14 +6,12 @@ export default function useCarousel(
   setImages: React.Dispatch<SetStateAction<string[]>>
 ) {
   useEffect(() => {
-    (async () => {
-      const carouselRef = ref(storage, "public/carousel");
-      const { items } = await listAll(carouselRef);
-      const images = await Promise.all(
-        items.map(async (item) => await getDownloadURL(item))
-      );
-
-      setImages(images);
-    })();
-  });
+    const carouselRef = ref(storage, "public/carousel");
+    listAll(carouselRef)
+      .then((res) => {
+        const images = res.items.map(async (item) => await getDownloadURL(item));
+        Promise.all(images).then((urls) => setImages(urls));
+      })
+      .catch(console.error);
+  }, [setImages]);
 }
